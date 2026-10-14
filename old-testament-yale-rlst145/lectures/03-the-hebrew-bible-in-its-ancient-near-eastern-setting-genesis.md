@@ -35,7 +35,7 @@ In the first of a series of lectures on the book of Genesis, the basic elements 
 ### Where to find the other readings
 
 - **The Jewish Study Bible** (Oxford, 2004), the course textbook. The "Introduction to …" and essay readings (cited as *JSB* pp. …) are in this book → [borrow it free on Internet Archive](https://archive.org/details/jewishstudybible0000unse_x6n0) (free account; same 2004 edition the course used)
-- **Pritchard, ed., *The Ancient Near East, Vol. 1: An Anthology of Texts and Pictures*** → [borrow free on Internet Archive](https://archive.org/details/ancientneareast00prit)
+- **Pritchard, ed., *The Ancient Near East, Vol. 1: An Anthology of Texts and Pictures*** → [borrow free on Internet Archive](https://archive.org/details/ancientneareasta00prit)
 - **The Pritchard myths for this lecture** · Free online versions: [Sumerian Flood Story ("The Deluge"), Oxford ETCSL translation](https://etcsl.orinst.ox.ac.uk/section1/tr174.htm)
 - **Kaufmann, *The Religion of Israel*** (Schocken, 1972) → [borrow on Internet Archive](https://archive.org/details/religionofisrael0000kauf_j7j0)
 

@@ -57,7 +57,7 @@ The course uses two books. Both can be borrowed free from the Internet Archive (
 | Book | What it's for | Get it |
 |---|---|---|
 | **The Jewish Study Bible** (Berlin & Brettler, eds., Oxford 2004) | The Bible text (JPS translation), plus the "Introduction to …" and essay readings cited as *JSB* pp. … | [Borrow (2004 ed.)](https://archive.org/details/jewishstudybible0000unse_x6n0) |
-| **The Ancient Near East, Vol. 1** (Pritchard, ed., Princeton 1958) | Myths and law codes from Israel's neighbors (Enuma Elish, Gilgamesh, Hammurabi …) | [Borrow](https://archive.org/details/ancientneareast00prit) |
+| **The Ancient Near East, Vol. 1** (Pritchard, ed., Princeton 1958) | Myths and law codes from Israel's neighbors (Enuma Elish, Gilgamesh, Hammurabi …) | [Borrow](https://archive.org/details/ancientneareasta00prit) |
 
 **You don't need the physical Bible.** Every Bible passage on the lecture pages links to
 [Sefaria](https://www.sefaria.org/texts/Tanakh), which has the JPS translation used in the Jewish Study Bible,
@@ -89,6 +89,8 @@ for the NRSVue, the standard translation used by scholars.
 3. A final exam covering lectures and readings. See the [final exam review sheet](handouts/final-exam-review-2006.pdf).
 
 **Grading:** Midterm 25% · Paper 25% · Final 40% · Section participation 10%
+
+**Free readings:** see [TODO-free-readings.md](TODO-free-readings.md) for which non-Bible readings are free online (work in progress).
 
 **Companion book:** Hayes later turned these lectures into a book,
 [*Introduction to the Bible*](https://yalebooks.yale.edu/book/9780300181791/introduction-to-the-bible/)

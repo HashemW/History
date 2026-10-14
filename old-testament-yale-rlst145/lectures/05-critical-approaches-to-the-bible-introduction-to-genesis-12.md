@@ -36,10 +36,10 @@ This lecture introduces the modern critical study of the Bible, including source
 ### Where to find the other readings
 
 - **The Jewish Study Bible** (Oxford, 2004), the course textbook. The "Introduction to …" and essay readings (cited as *JSB* pp. …) are in this book → [borrow it free on Internet Archive](https://archive.org/details/jewishstudybible0000unse_x6n0) (free account; same 2004 edition the course used)
-- **Habel, *Literary Criticism of the Old Testament*** (1971) → [borrow on Internet Archive](https://archive.org/details/literarycriticis0000habe)
+- **Habel, *Literary Criticism of the Old Testament*** (1971) → no free online copy found yet; borrow it free through a public library (see [notes](../TODO-free-readings.md))
 - **Boyarin, *Carnal Israel*** → [search Internet Archive](https://archive.org/search?query=Carnal+Israel+Boyarin)
 - **Pagels, *Adam, Eve, and the Serpent*** → [search Internet Archive](https://archive.org/search?query=Adam%2C+Eve%2C+and+the+Serpent+Pagels)
-- **Trible, "Depatriarchalizing in Biblical Interpretation"** (*JAAR* 41, 1973) → [find the article](https://scholar.google.com/scholar?q=Trible+Depatriarchalizing+in+Biblical+Interpretation)
+- **Trible, "Depatriarchalizing in Biblical Interpretation"** (*JAAR* 41, 1973) → [borrow the free reprint](https://archive.org/details/jewishwomannewpe0000kolt/page/217/mode/2up) in Koltun, *The Jewish Woman* (1976), pp. 217–240
 
 <details>
 <summary>Yale's original assignment list (word for word)</summary>

@@ -39,7 +39,7 @@ This lecture introduces biblical law in a comparative approach that identifies s
 ### Where to find the other readings
 
 - **The Jewish Study Bible** (Oxford, 2004), the course textbook. The "Introduction to …" and essay readings (cited as *JSB* pp. …) are in this book → [borrow it free on Internet Archive](https://archive.org/details/jewishstudybible0000unse_x6n0) (free account; same 2004 edition the course used)
-- **Pritchard, ed., *The Ancient Near East, Vol. 1: An Anthology of Texts and Pictures*** → [borrow free on Internet Archive](https://archive.org/details/ancientneareast00prit)
+- **Pritchard, ed., *The Ancient Near East, Vol. 1: An Anthology of Texts and Pictures*** → [borrow free on Internet Archive](https://archive.org/details/ancientneareasta00prit)
 - **The Pritchard law codes for this lecture** · Free online versions: [*The Code of Hammurabi*, L. W. King translation (Yale Avalon Project)](https://avalon.law.yale.edu/ancient/hamframe.asp)
 - **Pritchard, ed., *Ancient Near Eastern Texts Relating to the Old Testament* (ANET)** → [search Internet Archive](https://archive.org/search?query=Ancient+Near+Eastern+Texts+Relating+to+the+Old+Testament)
 

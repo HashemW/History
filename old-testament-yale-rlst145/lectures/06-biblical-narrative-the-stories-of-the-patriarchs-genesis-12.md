@@ -40,7 +40,7 @@ This lecture continues with a review of scholarly views on the historical accura
 - **The Jewish Study Bible** (Oxford, 2004), the course textbook. The "Introduction to …" and essay readings (cited as *JSB* pp. …) are in this book → [borrow it free on Internet Archive](https://archive.org/details/jewishstudybible0000unse_x6n0) (free account; same 2004 edition the course used)
 - ***Out of the Garden: Women Writers on the Bible*** (Buchmann & Spiegel, eds.) → [search Internet Archive](https://archive.org/search?query=Out+of+the+Garden+Women+Writers+on+the+Bible)
 - **Auerbach, "Odysseus' Scar," in *Mimesis*** → [search Internet Archive](https://archive.org/search?query=Mimesis+Auerbach)
-- **Alter, *The Art of Biblical Narrative*** (1981) → [borrow on Internet Archive](https://archive.org/details/isbn_9780465004270)
+- **Alter, *The Art of Biblical Narrative*** (1981) → no free online copy found yet; borrow it free through a public library (see [notes](../TODO-free-readings.md))
 - **Preminger & Greenstein, eds., *The Hebrew Bible in Literary Criticism*** → [search Internet Archive](https://archive.org/search?query=The+Hebrew+Bible+in+Literary+Criticism+Preminger+Greenstein)
 
 <details>
