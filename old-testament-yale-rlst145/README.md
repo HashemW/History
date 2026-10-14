@@ -100,11 +100,11 @@ for the NRSVue, the standard translation used by scholars.
 
 Click the ✏️ edit button on GitHub and change `[ ]` to `[x]` as you finish each one.
 
-- [ ] [Lecture 1: The Parts of the Whole](lectures/01-the-parts-of-the-whole.md)
-- [ ] [Lecture 2: The Hebrew Bible in Its Ancient Near Eastern Setting: Biblical Religion in Context](lectures/02-the-hebrew-bible-in-its-ancient-near-eastern-setting-biblica.md)
-- [ ] [Lecture 3: The Hebrew Bible in Its Ancient Near Eastern Setting: Genesis 1-4 in Context](lectures/03-the-hebrew-bible-in-its-ancient-near-eastern-setting-genesis.md)
-- [ ] [Lecture 4: Doublets and Contradictions, Seams and Sources: Genesis 5-11 and the Historical-Critical Method](lectures/04-doublets-and-contradictions-seams-and-sources-genesis-5-11-a.md)
-- [ ] [Lecture 5: Critical Approaches to the Bible: Introduction to Genesis 12-50](lectures/05-critical-approaches-to-the-bible-introduction-to-genesis-12.md)
+- [x] [Lecture 1: The Parts of the Whole](lectures/01-the-parts-of-the-whole.md)
+- [x] [Lecture 2: The Hebrew Bible in Its Ancient Near Eastern Setting: Biblical Religion in Context](lectures/02-the-hebrew-bible-in-its-ancient-near-eastern-setting-biblica.md)
+- [x] [Lecture 3: The Hebrew Bible in Its Ancient Near Eastern Setting: Genesis 1-4 in Context](lectures/03-the-hebrew-bible-in-its-ancient-near-eastern-setting-genesis.md)
+- [x] [Lecture 4: Doublets and Contradictions, Seams and Sources: Genesis 5-11 and the Historical-Critical Method](lectures/04-doublets-and-contradictions-seams-and-sources-genesis-5-11-a.md)
+- [x] [Lecture 5: Critical Approaches to the Bible: Introduction to Genesis 12-50](lectures/05-critical-approaches-to-the-bible-introduction-to-genesis-12.md)
 - [ ] [Lecture 6: Biblical Narrative: The Stories of the Patriarchs (Genesis 12-36)](lectures/06-biblical-narrative-the-stories-of-the-patriarchs-genesis-12.md)
 - [ ] [Lecture 7: Israel in Egypt: Moses and the Beginning of Yahwism (Genesis 37- Exodus 4)](lectures/07-israel-in-egypt-moses-and-the-beginning-of-yahwism-genesis-3.md)
 - [ ] [Lecture 8: Exodus: From Egypt to Sinai (Exodus 5-24, 32; Numbers)](lectures/08-exodus-from-egypt-to-sinai-exodus-5-24-32-numbers.md)

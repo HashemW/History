@@ -544,8 +544,16 @@ for L in lectures:
     for label, fn in L['resources']:
         handouts.append(f"| [{label}](handouts/{fn}) | [Lecture {L['n']}](lectures/{L['file']}) |")
 handouts.append(f"| [Midterm Exam](handouts/midterm-exam.pdf) | [Exam page]({COURSE_URL}/exam-1) |")
-progress = '\n'.join(f"- [ ] [Lecture {L['n']}: {L['title']}](lectures/{L['file']})"
-                     + ('\n- [ ] Midterm: try the [exam](handouts/midterm-exam.pdf) using the '
+# keep the checkmarks already ticked in the existing README, so a rebuild never loses progress
+try:
+    with open(os.path.join(CDIR, 'README.md'), encoding='utf-8') as f:
+        old_readme = f.read()
+except FileNotFoundError:
+    old_readme = ''
+done = {int(n) for n in re.findall(r'(?m)^- \[x\] \[Lecture (\d+):', old_readme, re.I)}
+midterm_done = bool(re.search(r'(?m)^- \[x\] Midterm', old_readme, re.I))
+progress = '\n'.join(f"- [{'x' if L['n'] in done else ' '}] [Lecture {L['n']}: {L['title']}](lectures/{L['file']})"
+                     + (f"\n- [{'x' if midterm_done else ' '}] Midterm: try the [exam](handouts/midterm-exam.pdf) using the "
                         '[review sheet](handouts/midterm-review.pdf)' if L['n'] == 11 else '')
                      for L in lectures)
 
