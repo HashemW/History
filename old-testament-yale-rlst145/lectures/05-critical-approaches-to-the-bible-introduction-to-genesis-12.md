@@ -35,11 +35,11 @@ This lecture introduces the modern critical study of the Bible, including source
 
 ### Where to find the other readings
 
-- **The Jewish Study Bible** (Oxford, 2004), the course textbook. The "Introduction to …" and essay readings (cited as *JSB* pp. …) are in this book → [borrow it free on Internet Archive](https://archive.org/details/jewishstudybible0000unse_x6n0) (free account; same 2004 edition the course used)
-- **Habel, *Literary Criticism of the Old Testament*** (1971) → no free online copy found yet; borrow it free through a public library (see [notes](../TODO-free-readings.md))
-- **Boyarin, *Carnal Israel*** → [search Internet Archive](https://archive.org/search?query=Carnal+Israel+Boyarin)
-- **Pagels, *Adam, Eve, and the Serpent*** → [search Internet Archive](https://archive.org/search?query=Adam%2C+Eve%2C+and+the+Serpent+Pagels)
-- **Trible, "Depatriarchalizing in Biblical Interpretation"** (*JAAR* 41, 1973) → [borrow the free reprint](https://archive.org/details/jewishwomannewpe0000kolt/page/217/mode/2up) in Koltun, *The Jewish Woman* (1976), pp. 217–240
+- **The Jewish Study Bible** (the course textbook, Oxford 2004) → [borrow free](https://archive.org/details/jewishstudybible0000unse_x6n0) (free Internet Archive account). Each link opens at the assigned page: [Introduction to the Torah, pp. 1–7](https://archive.org/details/jewishstudybible0000unse_x6n0/page/1/mode/2up)
+- **Habel, *Literary Criticism of the Old Testament* (Fortress, 1971), pp. 1–42** → Free with a public library card (as an e-book through Libby or Hoopla if your library has it, otherwise by Interlibrary Loan). No free online copy exists (the Internet Archive copy is for print-disabled readers only).
+- **Boyarin, "Behold Israel According to the Flesh" and "Different Eves," in *Carnal Israel* (1993), pp. 31–46, 77–106** → Free with a public library card (as an e-book through Libby or Hoopla if your library has it, otherwise by Interlibrary Loan). UC Press's free e-book collection has this title, but for University of California users only.
+- **Pagels, *Adam, Eve, and the Serpent* (1988), pp. 57–77** → Free with a public library card (as an e-book through Libby or Hoopla if your library has it, otherwise by Interlibrary Loan)
+- **Trible, "Depatriarchalizing in Biblical Interpretation," *JAAR* 41 (1973), pp. 30–48** → [Borrow the reprint in Koltun, *The Jewish Woman* (1976), pp. 217–240](https://archive.org/details/jewishwomannewpe0000kolt/page/217/mode/2up) · [or the original *JAAR* 41, p. 30](https://archive.org/details/journalofamerica0041unse/page/30/mode/2up)
 
 <details>
 <summary>Yale's original assignment list (word for word)</summary>

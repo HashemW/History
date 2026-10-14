@@ -16,7 +16,7 @@ with a direct link, and every handout and exam as a PDF.
 
 1. **Open the lecture page** (click its title below).
 2. **Do the readings first.** Each lecture page has a table of the Bible chapters with one-click links, plus
-   where to find the textbook pages.
+   a free link for every other reading (see [Free readings](free-readings.md) for the full list).
 3. **Watch the lecture** (YouTube) or **listen** (MP3). Use the chapter timestamps to jump around.
 4. **Review with the transcript**, which is on the same page below the readings.
 
@@ -50,9 +50,11 @@ with a direct link, and every handout and exam as a PDF.
 | 23 | [Visions of the End: Daniel and Apocalyptic Literature](lectures/23-visions-of-the-end-daniel-and-apocalyptic-literature.md) | Isaiah 56-66; Joel 1-4; Daniel 1-12 | [▶ Video](https://www.youtube.com/watch?v=5J6q1J09oNw) | [🎧 MP3](https://oyc.yale.edu/sites/default/files/courses/fall06/rlst145/mp3/rlst145_23_120406.mp3) |
 | 24 | [Alternative Visions: Esther, Ruth, and Jonah](lectures/24-alternative-visions-esther-ruth-and-jonah.md) | Esther 1-9; Ruth 1-4; Jonah 1-4 | [▶ Video](https://www.youtube.com/watch?v=TUN9e_m1izI) | [🎧 MP3](https://oyc.yale.edu/sites/default/files/courses/fall06/rlst145/mp3/rlst145_24_120606.mp3) |
 
-## Textbooks
+## Textbooks & readings
 
-The course uses two books. Both can be borrowed free from the Internet Archive (you need a free account):
+**📚 [Free readings](free-readings.md): every non-Bible reading in the course, with a free, legal way to read it.**
+
+The two main books can be borrowed free from the Internet Archive (you need a free account):
 
 | Book | What it's for | Get it |
 |---|---|---|
@@ -89,8 +91,6 @@ for the NRSVue, the standard translation used by scholars.
 3. A final exam covering lectures and readings. See the [final exam review sheet](handouts/final-exam-review-2006.pdf).
 
 **Grading:** Midterm 25% · Paper 25% · Final 40% · Section participation 10%
-
-**Free readings:** see [TODO-free-readings.md](TODO-free-readings.md) for which non-Bible readings are free online (work in progress).
 
 **Companion book:** Hayes later turned these lectures into a book,
 [*Introduction to the Bible*](https://yalebooks.yale.edu/book/9780300181791/introduction-to-the-bible/)

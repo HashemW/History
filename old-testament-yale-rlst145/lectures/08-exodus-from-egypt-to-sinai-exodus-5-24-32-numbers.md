@@ -38,7 +38,7 @@ This lecture traces the account of the Exodus (and the origin of the Passover fe
 
 ### Where to find the other readings
 
-- **The Jewish Study Bible** (Oxford, 2004), the course textbook. The "Introduction to …" and essay readings (cited as *JSB* pp. …) are in this book → [borrow it free on Internet Archive](https://archive.org/details/jewishstudybible0000unse_x6n0) (free account; same 2004 edition the course used)
+- **The Jewish Study Bible** (the course textbook, Oxford 2004) → [borrow free](https://archive.org/details/jewishstudybible0000unse_x6n0) (free Internet Archive account). Each link opens at the assigned page: [Introduction to Leviticus, pp. 203–206](https://archive.org/details/jewishstudybible0000unse_x6n0/page/203/mode/2up) · [Introduction to Numbers, pp. 281–284](https://archive.org/details/jewishstudybible0000unse_x6n0/page/281/mode/2up)
 
 <details>
 <summary>Yale's original assignment list (word for word)</summary>

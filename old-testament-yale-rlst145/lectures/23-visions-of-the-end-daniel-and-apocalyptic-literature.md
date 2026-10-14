@@ -38,7 +38,7 @@ The Book of Ruth, in which a foreign woman enters the community of Israel and be
 
 ### Where to find the other readings
 
-- **The Jewish Study Bible** (Oxford, 2004), the course textbook. The "Introduction to …" and essay readings (cited as *JSB* pp. …) are in this book → [borrow it free on Internet Archive](https://archive.org/details/jewishstudybible0000unse_x6n0) (free account; same 2004 edition the course used)
+- **The Jewish Study Bible** (the course textbook, Oxford 2004) → [borrow free](https://archive.org/details/jewishstudybible0000unse_x6n0) (free Internet Archive account). Each link opens at the assigned page: [Introduction to Joel, pp. 1166–7](https://archive.org/details/jewishstudybible0000unse_x6n0/page/1166/mode/2up) · [Introduction to Daniel, pp. 1640–42](https://archive.org/details/jewishstudybible0000unse_x6n0/page/1640/mode/2up)
 
 <details>
 <summary>Yale's original assignment list (word for word)</summary>

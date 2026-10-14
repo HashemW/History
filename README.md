@@ -15,6 +15,7 @@ handout linked in one place, so there's nothing to hunt down.
 History/
 └── old-testament-yale-rlst145/
     ├── README.md        ← course home: lecture list, textbooks, syllabus, progress checklist
+    ├── free-readings.md ← every non-Bible reading with a free, legal link
     ├── lectures/        ← one page per lecture: video, audio, readings with links, full transcript
     └── handouts/        ← every handout and exam PDF from the course
 ```

@@ -37,9 +37,9 @@ This lecture concludes the study of Deuteronomy and traces the contribution of t
 
 ### Where to find the other readings
 
-- **The Jewish Study Bible** (Oxford, 2004), the course textbook. The "Introduction to …" and essay readings (cited as *JSB* pp. …) are in this book → [borrow it free on Internet Archive](https://archive.org/details/jewishstudybible0000unse_x6n0) (free account; same 2004 edition the course used)
-- ***The Anchor Bible Dictionary*** → [search Internet Archive](https://archive.org/search?query=Anchor+Bible+Dictionary)
-- **Reis, *Reading the Lines*** → [search Internet Archive](https://archive.org/search?query=Reading+the+Lines+Reis+Hebrew+Bible)
+- **The Jewish Study Bible** (the course textbook, Oxford 2004) → [borrow free](https://archive.org/details/jewishstudybible0000unse_x6n0) (free Internet Archive account). Each link opens at the assigned page: [Introduction to Joshua, pp. 462–464](https://archive.org/details/jewishstudybible0000unse_x6n0/page/462/mode/2up) · [Introduction to Judges, pp. 508–510](https://archive.org/details/jewishstudybible0000unse_x6n0/page/508/mode/2up) · [Introduction to the Prophets, pp. 451–461](https://archive.org/details/jewishstudybible0000unse_x6n0/page/451/mode/2up) · [Early Nonrabbinic Interpretation, pp. 1835–1844](https://archive.org/details/jewishstudybible0000unse_x6n0/page/1835/mode/2up) · [Midrash and Midrashic Interpretation, pp. 1863–1876](https://archive.org/details/jewishstudybible0000unse_x6n0/page/1863/mode/2up)
+- ***Anchor Bible Dictionary*, "Interpretation, History of," pp. 424–427, 434–436** → [Borrow vol. 3, opens at p. 424](https://archive.org/details/anchorbibledicti0003unse_b2a9/page/424/mode/2up)
+- **Reis, "Spoiled Child: A Fresh Look at Jephthah's Daughter," in *Reading the Lines* (2002) (optional)** → [Borrow, opens at the essay](https://archive.org/details/readinglinesfres0000reis?q=%22Spoiled+Child%22)
 
 <details>
 <summary>Yale's original assignment list (word for word)</summary>

@@ -34,8 +34,8 @@ _No Bible chapters this time. This lecture's readings are essays (see below)._
 
 ### Where to find the other readings
 
-- **The Jewish Study Bible** (Oxford, 2004), the course textbook. The "Introduction to …" and essay readings (cited as *JSB* pp. …) are in this book → [borrow it free on Internet Archive](https://archive.org/details/jewishstudybible0000unse_x6n0) (free account; same 2004 edition the course used)
-- **Milgrom, "Israel's Sanctuary: The Priestly 'Picture of Dorian Gray'"** (*Revue Biblique*) → [find the article](https://scholar.google.com/scholar?q=Milgrom+Israel+Sanctuary+Priestly+Picture+of+Dorian+Gray)
+- **The Jewish Study Bible** (the course textbook, Oxford 2004) → [borrow free](https://archive.org/details/jewishstudybible0000unse_x6n0) (free Internet Archive account). Each link opens at the assigned page: [Concepts of Purity in the Bible, pp. 2041–2047](https://archive.org/details/jewishstudybible0000unse_x6n0/page/2041/mode/2up)
+- **Milgrom, "Israel's Sanctuary: The Priestly 'Picture of Dorian Gray'" (*Revue Biblique* 83, 1976)** → [Borrow the reprint in Milgrom, *Studies in Cultic Theology and Terminology* (1983), pp. 75–84](https://archive.org/details/bwb_S0-BYL-636/page/75/mode/2up) · [or the same idea in his commentary, *Leviticus 1–16* (1991), p. 260](https://archive.org/details/leviticus11600jaco/page/260/mode/2up)
 
 <details>
 <summary>Yale's original assignment list (word for word)</summary>

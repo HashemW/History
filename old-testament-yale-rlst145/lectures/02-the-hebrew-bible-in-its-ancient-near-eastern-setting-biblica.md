@@ -34,10 +34,9 @@ In this lecture, the Hebrew Bible is understood against the background of Ancien
 
 ### Where to find the other readings
 
-- **The Jewish Study Bible** (Oxford, 2004), the course textbook. The "Introduction to …" and essay readings (cited as *JSB* pp. …) are in this book → [borrow it free on Internet Archive](https://archive.org/details/jewishstudybible0000unse_x6n0) (free account; same 2004 edition the course used)
-- **Pritchard, ed., *The Ancient Near East, Vol. 1: An Anthology of Texts and Pictures*** → [borrow free on Internet Archive](https://archive.org/details/ancientneareasta00prit)
-- **The Pritchard myths for this lecture** · Free online versions: [Sumerian Flood Story ("The Deluge"), Oxford ETCSL translation](https://etcsl.orinst.ox.ac.uk/section1/tr174.htm)
-- **Kaufmann, *The Religion of Israel*** (Schocken, 1972) → [borrow on Internet Archive](https://archive.org/details/religionofisrael0000kauf_j7j0)
+- **The Jewish Study Bible** (the course textbook, Oxford 2004) → [borrow free](https://archive.org/details/jewishstudybible0000unse_x6n0) (free Internet Archive account). Each link opens at the assigned page: [Introduction to Genesis, pp. 8–11](https://archive.org/details/jewishstudybible0000unse_x6n0/page/8/mode/2up)
+- **Pritchard, ed., *The Ancient Near East*, Vol. 1: "The Deluge," "The Creation Epic," "The Epic of Gilgamesh" (pp. 28–75)** → [Borrow Pritchard, opens at p. 28](https://archive.org/details/ancientneareasta00prit/page/28/mode/2up) · [free: Sumerian Flood Story (Oxford ETCSL)](https://etcsl.orinst.ox.ac.uk/section1/tr174.htm) · [free: *Enuma Elish* (L. W. King, 1902)](https://sacred-texts.com/ane/enuma.htm) · [free: *Gilgamesh* (R. Campbell Thompson, 1928)](https://sacred-texts.com/ane/eog/index.htm) · [free: *Gilgamesh* (Jastrow & Clay, 1920)](https://www.gutenberg.org/ebooks/11000). The free versions are older translations of the same texts.
+- **Kaufmann, *The Religion of Israel* (Schocken, 1972), pp. 21–121** → [Borrow, opens at p. 21](https://archive.org/details/religionofisrael0000kauf_j7j0/page/21/mode/2up)
 
 <details>
 <summary>Yale's original assignment list (word for word)</summary>

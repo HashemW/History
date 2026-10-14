@@ -37,11 +37,11 @@ This lecture continues with a review of scholarly views on the historical accura
 
 ### Where to find the other readings
 
-- **The Jewish Study Bible** (Oxford, 2004), the course textbook. The "Introduction to …" and essay readings (cited as *JSB* pp. …) are in this book → [borrow it free on Internet Archive](https://archive.org/details/jewishstudybible0000unse_x6n0) (free account; same 2004 edition the course used)
-- ***Out of the Garden: Women Writers on the Bible*** (Buchmann & Spiegel, eds.) → [search Internet Archive](https://archive.org/search?query=Out+of+the+Garden+Women+Writers+on+the+Bible)
-- **Auerbach, "Odysseus' Scar," in *Mimesis*** → [search Internet Archive](https://archive.org/search?query=Mimesis+Auerbach)
-- **Alter, *The Art of Biblical Narrative*** (1981) → no free online copy found yet; borrow it free through a public library (see [notes](../TODO-free-readings.md))
-- **Preminger & Greenstein, eds., *The Hebrew Bible in Literary Criticism*** → [search Internet Archive](https://archive.org/search?query=The+Hebrew+Bible+in+Literary+Criticism+Preminger+Greenstein)
+- **The Jewish Study Bible** (the course textbook, Oxford 2004) → [borrow free](https://archive.org/details/jewishstudybible0000unse_x6n0) (free Internet Archive account). Each link opens at the assigned page: [Introduction to Exodus, pp. 102–107](https://archive.org/details/jewishstudybible0000unse_x6n0/page/102/mode/2up) · [Historical and Geographical Background to the Bible, pp. 2048–2052](https://archive.org/details/jewishstudybible0000unse_x6n0/page/2048/mode/2up) · [Inner-Biblical Interpretation, pp. 1829–1835](https://archive.org/details/jewishstudybible0000unse_x6n0/page/1829/mode/2up)
+- **Goldstein, "Looking Back at Lot's Wife," in *Out of the Garden* (1994), pp. 3–12 (optional)** → [Read free: first published in *Commentary*, Sept. 1992](https://www.commentary.org/articles/rebecca-goldstein/looking-back-at-lots-wife/)
+- **Auerbach, "Odysseus' Scar," *Mimesis*, ch. 1** → [Borrow *Mimesis* (Princeton, 1953), opens at ch. 1](https://archive.org/details/bwb_P9-ARY-273/page/3/mode/2up) · [or the reprint in *Homer: A Collection of Critical Essays* (1962), p. 19](https://archive.org/details/homercollectiono0000stei/page/19/mode/2up)
+- **Alter, *The Art of Biblical Narrative* (1981), pp. 3–22, 47–62, 178–189** → [pp. 3–22 free: first published as "A Literary Approach to the Bible," *Commentary*, Dec. 1975](https://www.commentary.org/articles/robert-alter-2/a-literary-approach-to-the-bible/) · [pp. 47–62 first published as "Biblical Type-Scenes and the Uses of Convention," *Critical Inquiry* 5.2 (1978)](https://doi.org/10.1086/447994). The *Critical Inquiry* article is readable online with a free [JSTOR personal account](https://www.jstor.org/register). pp. 178–189 (the conclusion) are in the book only: free with a public library card (as an e-book through Libby or Hoopla if your library has it, otherwise by Interlibrary Loan).
+- **Preminger & Greenstein, eds., *The Hebrew Bible in Literary Criticism* (1986), "The Binding of Isaac," pp. 261–270** → Free with a public library card (as an e-book through Libby or Hoopla if your library has it, otherwise by Interlibrary Loan)
 
 <details>
 <summary>Yale's original assignment list (word for word)</summary>

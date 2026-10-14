@@ -13,7 +13,7 @@ for d in (CDIR, LDIR, HDIR):
 
 BASE = 'https://oyc.yale.edu'
 COURSE_URL = BASE + '/religious-studies/rlst-145'
-UA = {'User-Agent': 'Mozilla/5.0'}
+UA = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36'}
 LICENSE = ('Lecture content © Yale University, from [Open Yale Courses](https://oyc.yale.edu), licensed under '
            '[CC BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/us/).')
 
@@ -217,91 +217,146 @@ def bible_summary(n):
 
 
 # ---------------------------------------------------------------- where to find the non-Bible readings
+# Every reading gets a free, legal source. 'open' = free online, no account; 'borrow' = free Internet Archive
+# loan (free account); 'partial' = part of it is free online; 'library' = only via a public library card.
 IA = 'https://archive.org/details/'
+LIBRARY = 'free with a public library card (as an e-book through Libby or Hoopla if your library has it, otherwise by Interlibrary Loan)'
+JSTOR_NOTE = 'readable online with a free [JSTOR personal account](https://www.jstor.org/register)'
 
 
-def ia_search(q):
-    return 'https://archive.org/search?query=' + urllib.parse.quote_plus(q)
+def ia_page(ident, n):
+    return f'{IA}{ident}/page/{n}/mode/2up'
 
 
-def scholar(q):
-    return 'https://scholar.google.com/scholar?q=' + urllib.parse.quote_plus(q)
-
-
-FREE = {  # public-domain / open translations of the Pritchard selections (checked below, dropped if dead)
-    'enuma': ('*Enuma Elish* ("The Creation Epic"), L. W. King translation', 'https://sacred-texts.com/ane/enuma.htm'),
-    'gilg': ('*The Epic of Gilgamesh*, R. Campbell Thompson translation', 'https://sacred-texts.com/ane/eog/index.htm'),
-    'flood': ('Sumerian Flood Story ("The Deluge"), Oxford ETCSL translation', 'https://etcsl.orinst.ox.ac.uk/section1/tr174.htm'),
-    'hamm': ('*The Code of Hammurabi*, L. W. King translation (Yale Avalon Project)', 'https://avalon.law.yale.edu/ancient/hamframe.asp'),
-}
+def find_in(ident, q):
+    return f'{IA}{ident}?q=' + urllib.parse.quote_plus(q)
 
 
 def alive(url):
     try:
-        req = urllib.request.Request(url, headers=UA)
-        with urllib.request.urlopen(req, timeout=20) as r:
+        with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=30) as r:
             return r.status == 200
     except Exception:
         return False
 
 
+def R(pat, title, status, links, note=''):
+    return dict(pat=pat, title=title, status=status, links=links, note=note)
+
+
+JSB = 'jewishstudybible0000unse_x6n0'
+OTHER_READINGS = [
+    R(r'Deluge|Creation Epic|Gilgamesh', 'Pritchard, ed., *The Ancient Near East*, Vol. 1: "The Deluge," "The Creation Epic," '
+      '"The Epic of Gilgamesh" (pp. 28–75)', 'borrow',
+      [('Borrow Pritchard, opens at p. 28', ia_page('ancientneareasta00prit', 28)),
+       ('free: Sumerian Flood Story (Oxford ETCSL)', 'https://etcsl.orinst.ox.ac.uk/section1/tr174.htm'),
+       ('free: *Enuma Elish* (L. W. King, 1902)', 'https://sacred-texts.com/ane/enuma.htm'),
+       ('free: *Gilgamesh* (R. Campbell Thompson, 1928)', 'https://sacred-texts.com/ane/eog/index.htm'),
+       ('free: *Gilgamesh* (Jastrow & Clay, 1920)', 'https://www.gutenberg.org/ebooks/11000')],
+      'The free versions are older translations of the same texts.'),
+    R(r'Kaufmann', 'Kaufmann, *The Religion of Israel* (Schocken, 1972), pp. 21–121', 'borrow',
+      [('Borrow, opens at p. 21', ia_page('religionofisrael0000kauf_j7j0', 21))]),
+    R(r'Habel', 'Habel, *Literary Criticism of the Old Testament* (Fortress, 1971), pp. 1–42', 'library', [],
+      'No free online copy exists (the Internet Archive copy is for print-disabled readers only).'),
+    R(r'Boyarin', 'Boyarin, "Behold Israel According to the Flesh" and "Different Eves," in *Carnal Israel* (1993), '
+      'pp. 31–46, 77–106', 'library', [],
+      "UC Press's free e-book collection has this title, but for University of California users only."),
+    R(r'Pagels', 'Pagels, *Adam, Eve, and the Serpent* (1988), pp. 57–77', 'library', []),
+    R(r'Trible', 'Trible, "Depatriarchalizing in Biblical Interpretation," *JAAR* 41 (1973), pp. 30–48', 'borrow',
+      [('Borrow the reprint in Koltun, *The Jewish Woman* (1976), pp. 217–240', ia_page('jewishwomannewpe0000kolt', 217)),
+       ('or the original *JAAR* 41, p. 30', ia_page('journalofamerica0041unse', 30))]),
+    R(r'Lot.s Wife', 'Goldstein, "Looking Back at Lot\'s Wife," in *Out of the Garden* (1994), pp. 3–12 (optional)',
+      'open', [('Read free: first published in *Commentary*, Sept. 1992',
+                'https://www.commentary.org/articles/rebecca-goldstein/looking-back-at-lots-wife/')]),
+    R(r'Auerbach', 'Auerbach, "Odysseus\' Scar," *Mimesis*, ch. 1', 'borrow',
+      [('Borrow *Mimesis* (Princeton, 1953), opens at ch. 1', ia_page('bwb_P9-ARY-273', 3)),
+       ('or the reprint in *Homer: A Collection of Critical Essays* (1962), p. 19', ia_page('homercollectiono0000stei', 19))]),
+    R(r'Alter, Robert', 'Alter, *The Art of Biblical Narrative* (1981), pp. 3–22, 47–62, 178–189', 'partial',
+      [('pp. 3–22 free: first published as "A Literary Approach to the Bible," *Commentary*, Dec. 1975',
+        'https://www.commentary.org/articles/robert-alter-2/a-literary-approach-to-the-bible/'),
+       ('pp. 47–62 first published as "Biblical Type-Scenes and the Uses of Convention," *Critical Inquiry* 5.2 (1978)',
+        'https://doi.org/10.1086/447994')],
+      f'The *Critical Inquiry* article is {JSTOR_NOTE}. pp. 178–189 (the conclusion) are in the book only: {LIBRARY}.'),
+    R(r'Greenstein', 'Preminger & Greenstein, eds., *The Hebrew Bible in Literary Criticism* (1986), "The Binding of '
+      'Isaac," pp. 261–270', 'library', []),
+    R(r'Milgrom', 'Milgrom, "Israel\'s Sanctuary: The Priestly \'Picture of Dorian Gray\'" (*Revue Biblique* 83, 1976)',
+      'borrow',
+      [('Borrow the reprint in Milgrom, *Studies in Cultic Theology and Terminology* (1983), pp. 75–84',
+        ia_page('bwb_S0-BYL-636', 75)),
+       ('or the same idea in his commentary, *Leviticus 1–16* (1991), p. 260', ia_page('leviticus11600jaco', 260))]),
+    R(r'Eshnunna', 'Pritchard, ed., *The Ancient Near East*, Vol. 1: "The Laws of Eshnunna," "The Code of Hammurabi" '
+      '(pp. 133–166)', 'borrow',
+      [('Borrow Pritchard, opens at p. 133', ia_page('ancientneareasta00prit', 133)),
+       ('free: *Code of Hammurabi* (L. W. King, Yale Avalon Project)', 'https://avalon.law.yale.edu/ancient/hamframe.asp')]),
+    R(r'Ancient Near Eastern Texts Relating', 'Pritchard, ed., *ANET*, "Collections of Laws from Mesopotamia": Sumerian '
+      'Laws, Ur-Nammu, Lipit-Ishtar, Middle Assyrian Laws, Hittite Laws (consult)', 'borrow',
+      [('Borrow Schreiber, *Jewish Law and Decision-Making* (1979), which reprints the ANET translations: '
+        'Ur-Nammu p. 83', ia_page('jewishlawdecisio0000schr', 83)),
+       ('Lipit-Ishtar p. 85', ia_page('jewishlawdecisio0000schr', 85)),
+       ('Middle Assyrian Laws p. 91', ia_page('jewishlawdecisio0000schr', 91)),
+       ('Hittite Laws p. 95', ia_page('jewishlawdecisio0000schr', 95)),
+       ('Sumerian Laws: borrow Pritchard, *The Ancient Near East*, Vol. 2 (1975)',
+        find_in('ancientneareastv0000unse', '"Sumerian Laws"'))]),
+    R(r'Interpretation, History of', '*Anchor Bible Dictionary*, "Interpretation, History of," pp. 424–427, 434–436',
+      'borrow', [('Borrow vol. 3, opens at p. 424', ia_page('anchorbibledicti0003unse_b2a9', 424))]),
+    R(r'Reis', 'Reis, "Spoiled Child: A Fresh Look at Jephthah\'s Daughter," in *Reading the Lines* (2002) (optional)',
+      'borrow', [('Borrow, opens at the essay', find_in('readinglinesfres0000reis', '"Spoiled Child"'))]),
+    R(r'Sternberg', 'Sternberg, *The Poetics of Biblical Narrative* (1985), pp. 186–222', 'partial',
+      [('Same analysis (David and Bathsheba) as an article: Perry & Sternberg, "The King through Ironic Eyes," '
+        '*Poetics Today* 7.2 (1986)', 'https://www.jstor.org/stable/1772762')],
+      f'The article is {JSTOR_NOTE}. The book itself: {LIBRARY}.'),
+    R(r'Psychopathology', 'Levinson, "The Psychopathology of King Saul," in *Out of the Garden*, pp. 123–141 (optional)',
+      'library', []),
+    R(r'Hannah and Elkanah', 'Ozick, "Hannah and Elkanah: Torah as the Matrix for Feminism," in *Out of the Garden*, '
+      'pp. 88–93 (optional)', 'partial',
+      [('free excerpt of the first version, *Lilith* 12/13 (1985)',
+        'https://lilith.org/articles/from-torah-as-the-matrix-for-feminism/')], f'Full essay: {LIBRARY}.'),
+    R(r'Encyclopedia of Religion', 'Wilson, "Biblical Prophecy," *The Encyclopedia of Religion* 12:14–23', 'borrow',
+      [('Borrow vol. 12, opens at p. 14', ia_page('encyclopediaofre12elia', 14))]),
+    R(r'Apocalypses', '*Anchor Bible Dictionary*, "Apocalypses," pp. 279–288', 'borrow',
+      [('Borrow vol. 1, opens at p. 279', ia_page('anchorbibledicti0001unse_l6c5', 279))]),
+]
+
+_urls = sorted({u for r in OTHER_READINGS for _, u in r['links'] if 'archive.org' not in u and 'jstor.org' not in u
+                and 'doi.org' not in u})
 with cf.ThreadPoolExecutor(8) as ex:
-    ok = dict(zip(FREE, ex.map(lambda k: alive(FREE[k][1]), FREE)))
+    ok = dict(zip(_urls, ex.map(alive, _urls)))
 print('free-text links alive:', ok)
 
 
-def free(*keys):
-    links = [f'[{FREE[k][0]}]({FREE[k][1]})' for k in keys if ok.get(k)]
-    return (' · Free online versions: ' + ' · '.join(links)) if links else ''
+def links_md(r):
+    return ' · '.join(f'[{label}]({u})' for label, u in r['links'] if ok.get(u, True))
 
 
-SOURCES = [
-    (r'JSB|Jewish Study Bible',
-     f'**The Jewish Study Bible** (Oxford, 2004), the course textbook. The "Introduction to …" and essay readings '
-     f'(cited as *JSB* pp. …) are in this book → [borrow it free on Internet Archive]({IA}jewishstudybible0000unse_x6n0) '
-     f'(free account; same 2004 edition the course used)'),
-    (r'Pritchard',
-     f'**Pritchard, ed., *The Ancient Near East, Vol. 1: An Anthology of Texts and Pictures*** → '
-     f'[borrow free on Internet Archive]({IA}ancientneareasta00prit)'),
-    (r'Creation Epic|Gilgamesh|Deluge', '**The Pritchard myths for this lecture**' + free('enuma', 'gilg', 'flood')),
-    (r'Hammurabi', '**The Pritchard law codes for this lecture**' + free('hamm')),
-    (r'Ancient Near Eastern Texts Relating',
-     f'**Pritchard, ed., *Ancient Near Eastern Texts Relating to the Old Testament* (ANET)** → '
-     f'[search Internet Archive]({ia_search("Ancient Near Eastern Texts Relating to the Old Testament")})'),
-    (r'Kaufmann',
-     f'**Kaufmann, *The Religion of Israel*** (Schocken, 1972) → [borrow on Internet Archive]({IA}religionofisrael0000kauf_j7j0)'),
-    (r'Habel',
-     f'**Habel, *Literary Criticism of the Old Testament*** (1971) → no free online copy found yet; borrow it free through a public library (see [notes](../TODO-free-readings.md))'),
-    (r'Boyarin', f'**Boyarin, *Carnal Israel*** → [search Internet Archive]({ia_search("Carnal Israel Boyarin")})'),
-    (r'Pagels',
-     f'**Pagels, *Adam, Eve, and the Serpent*** → [search Internet Archive]({ia_search("Adam, Eve, and the Serpent Pagels")})'),
-    (r'Trible',
-     f'**Trible, "Depatriarchalizing in Biblical Interpretation"** (*JAAR* 41, 1973) → '
-     f'[borrow the free reprint](https://archive.org/details/jewishwomannewpe0000kolt/page/217/mode/2up) in Koltun, *The Jewish Woman* (1976), pp. 217–240'),
-    (r'Out of the Garden',
-     f'***Out of the Garden: Women Writers on the Bible*** (Buchmann & Spiegel, eds.) → '
-     f'[search Internet Archive]({ia_search("Out of the Garden Women Writers on the Bible")})'),
-    (r'Auerbach',
-     f'**Auerbach, "Odysseus\' Scar," in *Mimesis*** → [search Internet Archive]({ia_search("Mimesis Auerbach")})'),
-    (r'Alter, Robert',
-     f'**Alter, *The Art of Biblical Narrative*** (1981) → no free online copy found yet; borrow it free through a public library (see [notes](../TODO-free-readings.md))'),
-    (r'Greenstein',
-     f'**Preminger & Greenstein, eds., *The Hebrew Bible in Literary Criticism*** → '
-     f'[search Internet Archive]({ia_search("The Hebrew Bible in Literary Criticism Preminger Greenstein")})'),
-    (r'Milgrom',
-     f'**Milgrom, "Israel\'s Sanctuary: The Priestly \'Picture of Dorian Gray\'"** (*Revue Biblique*) → '
-     f'[find the article]({scholar("Milgrom Israel Sanctuary Priestly Picture of Dorian Gray")})'),
-    (r'Anchor Bible Dictionary',
-     f'***The Anchor Bible Dictionary*** → [search Internet Archive]({ia_search("Anchor Bible Dictionary")})'),
-    (r'Sternberg',
-     f'**Sternberg, *The Poetics of Biblical Narrative*** → [search Internet Archive]({ia_search("Poetics of Biblical Narrative Sternberg")})'),
-    (r'Encyclopedia of Religion',
-     f'***The Encyclopedia of Religion*** (Eliade, ed., 1987), vol. 12 → '
-     f'[search Internet Archive]({ia_search("Encyclopedia of Religion Eliade")})'),
-    (r'Reis', f'**Reis, *Reading the Lines*** → [search Internet Archive]({ia_search("Reading the Lines Reis Hebrew Bible")})'),
-    (r'Kierkegaard',
-     f'**Kierkegaard, *Fear and Trembling*** → [search Internet Archive]({ia_search("Kierkegaard Fear and Trembling")})'),
-]
+def reading_line(r):
+    out = f"**{r['title']}** → " + (links_md(r) or LIBRARY[0].upper() + LIBRARY[1:])
+    return out + (f". {r['note']}" if r['note'] else '')
+
+
+JSB_CITE = re.compile(r'(Introduction to [A-Za-z][^(\n;]*?|"[^"]+"|“[^”]+”)\s*[,(]\s*(?:JSB\s*)?pp\.?\s*([\d][\d\s,\-–]*(?:and\s*[\d\-–\s,]+)?)')
+
+
+def jsb_line(text):
+    """Deep-link every 'Introduction to X (JSB pp. a-b)' citation to its page in the borrowable JSB."""
+    seen, parts = set(), []
+    for label, pages in JSB_CITE.findall(text):
+        label = label.strip(' ,').strip('"“”')
+        ranges = re.findall(r'(\d+)(?:\s*[-–]\s*(\d+))?', pages)
+        # "Introduction to Lamentations, Proverbs, Job and Ecclesiastes (pp. a, b, c, d)": one label per range
+        names = re.split(r',\s*|\s+and\s+(?:Introduction to\s+)?', label[len('Introduction to '):])
+        labels = ([f'Introduction to {x}' for x in names] if label.startswith('Introduction to ')
+                  and len(names) == len(ranges) > 1 else [label] * len(ranges))
+        for label, (a, b) in zip(labels, ranges):
+            key = (label, a)
+            if key in seen:
+                continue
+            seen.add(key)
+            parts.append(f"[{label}, pp. {a}{'–' + b if b else ''}]({ia_page(JSB, a)})")
+    if not parts:
+        return ''
+    return ('**The Jewish Study Bible** (the course textbook, Oxford 2004) → [borrow free]({}) (free Internet Archive '
+            'account). Each link opens at the assigned page: ').format(IA + JSB) + ' · '.join(parts)
+
 
 # ---------------------------------------------------------------- parse lecture pages
 lectures, pdfs = [], {}
@@ -380,8 +435,8 @@ for k, L in enumerate(lectures):
         '[Course home](../README.md)',
         f"[Lecture {nxt['n']} →]({nxt['file']})" if nxt else ''] if x)
     chapters = '\n'.join(f'{i}. [▶ {hms(t)}]({yt(L["vid"], t)}) {name}' for i, (name, t) in enumerate(L['chapters'], 1))
-    found = [text for pat, text in SOURCES if re.search(pat, L['assign_text'])]
-    where = '\n'.join(f'- {t}' for t in found) or '- _Everything for this lecture is in the Bible table above._'
+    found = [jsb_line(L['assign_text'])] + [reading_line(r) for r in OTHER_READINGS if re.search(r['pat'], L['assign_text'])]
+    where = '\n'.join(f'- {t}' for t in found if t) or '- _Everything for this lecture is in the Bible table above._'
     res = '\n'.join(f'- 📄 [{label}](../handouts/{fn})' for label, fn in L['resources'])
     page = f"""# Lecture {L['n']}: {L['title']}
 
@@ -427,6 +482,54 @@ for k, L in enumerate(lectures):
     page += f"\n## 📝 Full transcript\n\n{L['transcript']}\n\n---\n\n{nav}\n\n<sub>{LICENSE}</sub>\n"
     write(os.path.join(LDIR, L['file']), page)
 
+# ---------------------------------------------------------------- free readings page
+for r in OTHER_READINGS:
+    r['lectures'] = [L for L in lectures if re.search(r['pat'], L['assign_text'])]
+groups = [('open', '🆓 Free online, no account needed'),
+          ('borrow', '📖 Free to borrow on the Internet Archive'),
+          ('partial', '🆓 Partly free online'),
+          ('library', '🏛️ Public library only')]
+def lecture_links(r):
+    return ', '.join(f"[{L['n']}](lectures/{L['file']})" for L in r['lectures'])
+
+
+sections = []
+for status, heading in groups:
+    rows = [f"| {r['title']} | {lecture_links(r)} | {reading_line(r).split(' → ', 1)[1]} |"
+            for r in OTHER_READINGS if r['status'] == status and r['lectures']]
+    if rows:
+        sections.append(f'## {heading}\n\n| Reading | Lectures | Where to read it free |\n|---|---|---|\n' + '\n'.join(rows))
+counts = {s: sum(1 for r in OTHER_READINGS if r['status'] == s and r['lectures']) for s, _ in groups}
+free_md = f"""# Free readings
+
+[← Course home](README.md)
+
+Every non-Bible reading in the course, with a free and legal way to read it. Nothing here needs to be bought.
+(The Bible passages are on each lecture page, linked to Sefaria and BibleGateway.)
+
+**How the links work**
+
+- **Internet Archive "Borrow" links:** make a free account at [archive.org](https://archive.org/account/signup), then
+  click **Borrow** (a 1-hour loan you can renew, or 14 days for some books). Page links open at the assigned page; if
+  one lands elsewhere, type the page number into the reader's page box.
+- **Public library:** a free library card gets you e-books through Libby or Hoopla, and anything else through
+  Interlibrary Loan. Most of the library-only readings are optional or for section discussion.
+- **JSTOR articles:** a free [JSTOR personal account](https://www.jstor.org/register) lets you read a limited number
+  of articles online each month.
+
+**Tally:** {counts['open']} free online · {counts['borrow']} free to borrow · {counts['partial']} partly free online · {counts['library']} library only
+
+## 📗 The textbook: *The Jewish Study Bible* (Oxford, 2004)
+
+Used in almost every lecture. [Borrow it free]({IA}{JSB}) (the same 2004 edition the course used). Each lecture
+page links every assigned *JSB* section straight to its page.
+
+{chr(10).join(s + chr(10) for s in sections)}
+**Not linked on purpose:** uploads of these copyrighted books on "folkscanomy," "pdfdrive" or similar
+collections are unauthorized copies, so they are left out.
+"""
+write(os.path.join(CDIR, 'free-readings.md'), free_md)
+
 # ---------------------------------------------------------------- course README
 course = load('course.html')
 rows = []
@@ -464,7 +567,7 @@ with a direct link, and every handout and exam as a PDF.
 
 1. **Open the lecture page** (click its title below).
 2. **Do the readings first.** Each lecture page has a table of the Bible chapters with one-click links, plus
-   where to find the textbook pages.
+   a free link for every other reading (see [Free readings](free-readings.md) for the full list).
 3. **Watch the lecture** (YouTube) or **listen** (MP3). Use the chapter timestamps to jump around.
 4. **Review with the transcript**, which is on the same page below the readings.
 
@@ -474,9 +577,11 @@ with a direct link, and every handout and exam as a PDF.
 |---|---|---|---|---|
 {chr(10).join(rows)}
 
-## Textbooks
+## Textbooks & readings
 
-The course uses two books. Both can be borrowed free from the Internet Archive (you need a free account):
+**📚 [Free readings](free-readings.md): every non-Bible reading in the course, with a free, legal way to read it.**
+
+The two main books can be borrowed free from the Internet Archive (you need a free account):
 
 | Book | What it's for | Get it |
 |---|---|---|
@@ -539,6 +644,7 @@ handout linked in one place, so there's nothing to hunt down.
 History/
 └── {SLUG}/
     ├── README.md        ← course home: lecture list, textbooks, syllabus, progress checklist
+    ├── free-readings.md ← every non-Bible reading with a free, legal link
     ├── lectures/        ← one page per lecture: video, audio, readings with links, full transcript
     └── handouts/        ← every handout and exam PDF from the course
 ```
@@ -548,4 +654,4 @@ write(os.path.join(OUT, 'README.md'), top)
 # ---------------------------------------------------------------- report
 for L in lectures:
     print(f"L{L['n']:>2} ch={len(L['chapters'])} words={len(L['transcript'].split()):>6} "
-          f"overview={len(L['overview']):>4} res={len(L['resources'])} srcs={sum(bool(re.search(p, L['assign_text'])) for p, _ in SOURCES)} | {L['title']}")
+          f"overview={len(L['overview']):>4} res={len(L['resources'])} srcs={sum(bool(re.search(r['pat'], L['assign_text'])) for r in OTHER_READINGS)} | {L['title']}")

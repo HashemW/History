@@ -35,8 +35,8 @@ This lecture concludes the discussion of the Deuteronomistic historian's efforts
 
 ### Where to find the other readings
 
-- **The Jewish Study Bible** (Oxford, 2004), the course textbook. The "Introduction to …" and essay readings (cited as *JSB* pp. …) are in this book → [borrow it free on Internet Archive](https://archive.org/details/jewishstudybible0000unse_x6n0) (free account; same 2004 edition the course used)
-- ***The Encyclopedia of Religion*** (Eliade, ed., 1987), vol. 12 → [search Internet Archive](https://archive.org/search?query=Encyclopedia+of+Religion+Eliade)
+- **The Jewish Study Bible** (the course textbook, Oxford 2004) → [borrow free](https://archive.org/details/jewishstudybible0000unse_x6n0) (free Internet Archive account). Each link opens at the assigned page: [Introduction to The Twelve, pp. 1139–42](https://archive.org/details/jewishstudybible0000unse_x6n0/page/1139/mode/2up) · [Introduction to Amos, pp. 1176–7](https://archive.org/details/jewishstudybible0000unse_x6n0/page/1176/mode/2up)
+- **Wilson, "Biblical Prophecy," *The Encyclopedia of Religion* 12:14–23** → [Borrow vol. 12, opens at p. 14](https://archive.org/details/encyclopediaofre12elia/page/14/mode/2up)
 
 <details>
 <summary>Yale's original assignment list (word for word)</summary>

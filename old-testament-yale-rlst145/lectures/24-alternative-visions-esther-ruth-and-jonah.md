@@ -35,8 +35,8 @@ In this lecture, two final books of the Bible are examined and their attitudes t
 
 ### Where to find the other readings
 
-- **The Jewish Study Bible** (Oxford, 2004), the course textbook. The "Introduction to …" and essay readings (cited as *JSB* pp. …) are in this book → [borrow it free on Internet Archive](https://archive.org/details/jewishstudybible0000unse_x6n0) (free account; same 2004 edition the course used)
-- ***The Anchor Bible Dictionary*** → [search Internet Archive](https://archive.org/search?query=Anchor+Bible+Dictionary)
+- **The Jewish Study Bible** (the course textbook, Oxford 2004) → [borrow free](https://archive.org/details/jewishstudybible0000unse_x6n0) (free Internet Archive account). Each link opens at the assigned page: [Introduction to Esther, pp. 1198–9](https://archive.org/details/jewishstudybible0000unse_x6n0/page/1198/mode/2up) · [Introduction to Ruth, pp. 1578–9](https://archive.org/details/jewishstudybible0000unse_x6n0/page/1578/mode/2up) · [Introduction to Jonah, pp. 1623–5](https://archive.org/details/jewishstudybible0000unse_x6n0/page/1623/mode/2up) · [The Religion of the Bible, pp. 2021–2040](https://archive.org/details/jewishstudybible0000unse_x6n0/page/2021/mode/2up)
+- ***Anchor Bible Dictionary*, "Apocalypses," pp. 279–288** → [Borrow vol. 1, opens at p. 279](https://archive.org/details/anchorbibledicti0001unse_l6c5/page/279/mode/2up)
 
 <details>
 <summary>Yale's original assignment list (word for word)</summary>

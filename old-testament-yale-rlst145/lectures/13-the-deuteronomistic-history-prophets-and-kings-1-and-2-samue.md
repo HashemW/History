@@ -39,9 +39,10 @@ The transition from a tribal society under the leadership of elders and eventual
 
 ### Where to find the other readings
 
-- **The Jewish Study Bible** (Oxford, 2004), the course textbook. The "Introduction to …" and essay readings (cited as *JSB* pp. …) are in this book → [borrow it free on Internet Archive](https://archive.org/details/jewishstudybible0000unse_x6n0) (free account; same 2004 edition the course used)
-- ***Out of the Garden: Women Writers on the Bible*** (Buchmann & Spiegel, eds.) → [search Internet Archive](https://archive.org/search?query=Out+of+the+Garden+Women+Writers+on+the+Bible)
-- **Sternberg, *The Poetics of Biblical Narrative*** → [search Internet Archive](https://archive.org/search?query=Poetics+of+Biblical+Narrative+Sternberg)
+- **The Jewish Study Bible** (the course textbook, Oxford 2004) → [borrow free](https://archive.org/details/jewishstudybible0000unse_x6n0) (free Internet Archive account). Each link opens at the assigned page: [Introduction to Samuel, pp. 558–61](https://archive.org/details/jewishstudybible0000unse_x6n0/page/558/mode/2up) · [Introduction to Kings, pp. 668–71](https://archive.org/details/jewishstudybible0000unse_x6n0/page/668/mode/2up) · [Historical and Geographical Background to the Bible, pp. 2052–2055](https://archive.org/details/jewishstudybible0000unse_x6n0/page/2052/mode/2up)
+- **Sternberg, *The Poetics of Biblical Narrative* (1985), pp. 186–222** → [Same analysis (David and Bathsheba) as an article: Perry & Sternberg, "The King through Ironic Eyes," *Poetics Today* 7.2 (1986)](https://www.jstor.org/stable/1772762). The article is readable online with a free [JSTOR personal account](https://www.jstor.org/register). The book itself: free with a public library card (as an e-book through Libby or Hoopla if your library has it, otherwise by Interlibrary Loan).
+- **Levinson, "The Psychopathology of King Saul," in *Out of the Garden*, pp. 123–141 (optional)** → Free with a public library card (as an e-book through Libby or Hoopla if your library has it, otherwise by Interlibrary Loan)
+- **Ozick, "Hannah and Elkanah: Torah as the Matrix for Feminism," in *Out of the Garden*, pp. 88–93 (optional)** → [free excerpt of the first version, *Lilith* 12/13 (1985)](https://lilith.org/articles/from-torah-as-the-matrix-for-feminism/). Full essay: free with a public library card (as an e-book through Libby or Hoopla if your library has it, otherwise by Interlibrary Loan).
 
 <details>
 <summary>Yale's original assignment list (word for word)</summary>

@@ -40,7 +40,7 @@ This lecture begins with the Book of Lamentations, a short book of dirges that l
 
 ### Where to find the other readings
 
-- **The Jewish Study Bible** (Oxford, 2004), the course textbook. The "Introduction to …" and essay readings (cited as *JSB* pp. …) are in this book → [borrow it free on Internet Archive](https://archive.org/details/jewishstudybible0000unse_x6n0) (free account; same 2004 edition the course used)
+- **The Jewish Study Bible** (the course textbook, Oxford 2004) → [borrow free](https://archive.org/details/jewishstudybible0000unse_x6n0) (free Internet Archive account). Each link opens at the assigned page: [Introduction to Ketuvim, pp. 1275–9](https://archive.org/details/jewishstudybible0000unse_x6n0/page/1275/mode/2up) · [Introduction to Lamentations, pp. 1447–9](https://archive.org/details/jewishstudybible0000unse_x6n0/page/1447/mode/2up) · [Introduction to Proverbs, pp. 1499–1505](https://archive.org/details/jewishstudybible0000unse_x6n0/page/1499/mode/2up) · [Introduction to Job, pp. 1587–1589](https://archive.org/details/jewishstudybible0000unse_x6n0/page/1587/mode/2up) · [Introduction to Ecclesiastes, pp. 1603–1606](https://archive.org/details/jewishstudybible0000unse_x6n0/page/1603/mode/2up)
 
 <details>
 <summary>Yale's original assignment list (word for word)</summary>

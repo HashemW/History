@@ -38,10 +38,9 @@ This lecture introduces biblical law in a comparative approach that identifies s
 
 ### Where to find the other readings
 
-- **The Jewish Study Bible** (Oxford, 2004), the course textbook. The "Introduction to …" and essay readings (cited as *JSB* pp. …) are in this book → [borrow it free on Internet Archive](https://archive.org/details/jewishstudybible0000unse_x6n0) (free account; same 2004 edition the course used)
-- **Pritchard, ed., *The Ancient Near East, Vol. 1: An Anthology of Texts and Pictures*** → [borrow free on Internet Archive](https://archive.org/details/ancientneareasta00prit)
-- **The Pritchard law codes for this lecture** · Free online versions: [*The Code of Hammurabi*, L. W. King translation (Yale Avalon Project)](https://avalon.law.yale.edu/ancient/hamframe.asp)
-- **Pritchard, ed., *Ancient Near Eastern Texts Relating to the Old Testament* (ANET)** → [search Internet Archive](https://archive.org/search?query=Ancient+Near+Eastern+Texts+Relating+to+the+Old+Testament)
+- **The Jewish Study Bible** (the course textbook, Oxford 2004) → [borrow free](https://archive.org/details/jewishstudybible0000unse_x6n0) (free Internet Archive account). Each link opens at the assigned page: [Introduction to Deuteronomy, pp. 356–363](https://archive.org/details/jewishstudybible0000unse_x6n0/page/356/mode/2up) · [The Modern Study of the Bible, pp. 2084–96](https://archive.org/details/jewishstudybible0000unse_x6n0/page/2084/mode/2up)
+- **Pritchard, ed., *The Ancient Near East*, Vol. 1: "The Laws of Eshnunna," "The Code of Hammurabi" (pp. 133–166)** → [Borrow Pritchard, opens at p. 133](https://archive.org/details/ancientneareasta00prit/page/133/mode/2up) · [free: *Code of Hammurabi* (L. W. King, Yale Avalon Project)](https://avalon.law.yale.edu/ancient/hamframe.asp)
+- **Pritchard, ed., *ANET*, "Collections of Laws from Mesopotamia": Sumerian Laws, Ur-Nammu, Lipit-Ishtar, Middle Assyrian Laws, Hittite Laws (consult)** → [Borrow Schreiber, *Jewish Law and Decision-Making* (1979), which reprints the ANET translations: Ur-Nammu p. 83](https://archive.org/details/jewishlawdecisio0000schr/page/83/mode/2up) · [Lipit-Ishtar p. 85](https://archive.org/details/jewishlawdecisio0000schr/page/85/mode/2up) · [Middle Assyrian Laws p. 91](https://archive.org/details/jewishlawdecisio0000schr/page/91/mode/2up) · [Hittite Laws p. 95](https://archive.org/details/jewishlawdecisio0000schr/page/95/mode/2up) · [Sumerian Laws: borrow Pritchard, *The Ancient Near East*, Vol. 2 (1975)](https://archive.org/details/ancientneareastv0000unse?q=%22Sumerian+Laws%22)
 
 <details>
 <summary>Yale's original assignment list (word for word)</summary>

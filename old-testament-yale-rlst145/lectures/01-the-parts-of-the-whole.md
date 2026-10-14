@@ -34,7 +34,7 @@ This lecture provides an introduction to the literature of the Hebrew Bible and 
 
 ### Where to find the other readings
 
-- **The Jewish Study Bible** (Oxford, 2004), the course textbook. The "Introduction to …" and essay readings (cited as *JSB* pp. …) are in this book → [borrow it free on Internet Archive](https://archive.org/details/jewishstudybible0000unse_x6n0) (free account; same 2004 edition the course used)
+- **The Jewish Study Bible** (the course textbook, Oxford 2004) → [borrow free](https://archive.org/details/jewishstudybible0000unse_x6n0) (free Internet Archive account). Each link opens at the assigned page: [Introduction to Genesis, pp. 8–11](https://archive.org/details/jewishstudybible0000unse_x6n0/page/8/mode/2up)
 
 <details>
 <summary>Yale's original assignment list (word for word)</summary>
